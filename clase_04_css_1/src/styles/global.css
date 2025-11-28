@@ -1,0 +1,61 @@
+
+
+
+/*
+    ¿Que colocamos en Global CSS?
+
+    Estilos del header/nav
+    Estilos del footer
+    Estructura de responsividad de header y footer
+    Variables globales
+    Reseteo de estilosh2 {
+    color: red;}
+*/
+
+
+/* TIPOS DE SELECTORES */
+
+/* SELECTOR UNIVERSAL */
+/* * {
+  color: blue;
+} */
+
+/* SELECTOR DE ETIQUETA */
+/* p {
+  color: red;
+} */
+
+/* SELECTOR DE CLASE */
+/* .grupo {
+  color: green;
+}  */
+/* SELECTOR DE ID */
+/* #unico {
+  color: yellow;
+} */
+
+
+/* SELECTORES COMBINADOS */
+/**** SELECTOR DE HIJO *****/
+/* section > h2 {
+  color: green;
+} */
+
+/**** SELECTOR DE DESCENDIENTE *****/
+/* section h2 {
+  color: blue;
+} */
+
+/**** SELECTOR DE HERMANOS *****/
+/* h2 ~ p {
+  color: red;
+} */
+
+/**** SELECTOR DE ATRIBUTO *****/
+/* input[type="text"]{
+  color: red;
+} */
+
+
+
+

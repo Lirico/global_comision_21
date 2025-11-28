@@ -1,0 +1,126 @@
+
+
+/* 
+    DIMENSIONES
+
+    -> Absolutas 
+        -> Una dimension que tiene valor por si misma.
+            -> pixeles
+            -> centimetros
+            -> kilogramos
+    -> Relativas
+        -> Para tener un valor concreto dependen de otra
+        dimension.
+            -> porcentajes 
+            -> viewport (viewport height / viewport width)
+            -> REM
+            -> EM
+
+    CONTENEDORES
+    -> BLOQUE
+        -> Tiene un ancho por defecto igual al ancho del body
+        -> Es maleable con dimensiones manuales.
+    -> LINEA
+        -> No son maleables con dimensiones manuales.
+        -> Toman el tamaño de su contenido.
+*/
+/* 
+div {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+} */
+/* span {
+    background-color: greenyellow;
+    display: block;
+} */
+
+/* 
+.padre {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.hijo {
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+} */
+
+/* * {
+    margin: 0;
+}
+
+.home {
+    background-color: yellow;
+    height: 100vh;
+}
+.about {
+    background-color: red;
+    height: 800px;
+} */
+
+/* 
+    Podemos definir un valor referencia para los REM.
+    Y cuando usemos rems, el valor de ellos va a depender
+    de la referencia previamente establecida.
+*/
+
+/* html {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+} */
+
+/* 
+    La referencia del EM se define en el contenedor padre
+    de un grupo de elementos, y solo afectara a los elementos
+    internos de ese contenedor, pero no a los de otros contenedores.
+*/
+
+/* .rebelde {
+    font-size: 12px; 
+}
+
+.rebelde h1 {
+    font-size: 2em;
+}
+.rebelde h2 {
+    font-size: 1.75em;
+}
+.rebelde h3 {
+    font-size: 1.5em;
+}
+.rebelde h4 {
+    font-size: 1.25em;
+}
+
+.way {
+    font-size: 40px; 
+}
+
+.way h1 {
+    font-size: 2em;
+}
+.way h2 {
+    font-size: 1.75em;
+}
+.way h3 {
+    font-size: 1.5em;
+}
+.way h4 {
+    font-size: 1.25em;
+} */
