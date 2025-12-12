@@ -1,0 +1,62 @@
+/********** FLEXBOX *********/
+/* 
+    Es un sistema de distribucion de elementos. Peculiarmente aplica sobre un container
+    en el cual yo quiero distribuir sus hijos DIRECTOS.
+
+    Una vez que nosotrs declaramos como flexible un container, una tanda de nuevas propiedades
+    se hacen disponibles para ese contenedor.
+
+    Para hacer flexible un contenedor usamos:
+    -> display: flex;
+        -> Simula que los hijos del contenedor se vuelve tipo inline-block.
+        -> Por defecto la mera aplicacion de flex ordena horizontalmente.
+
+    Podemos elegir si queremos que los hijos se desplieguen horizontales o verticales.
+    -> flex-direction: column; o row;
+    
+    Podemos movilizar los hijos a lo largo del eje X (horizontalmente).
+    -> justify-content
+        -> Elegir si queremos mover los elementos a la izquierda, derecha, centro o separarlos.
+    
+    Podemos movlizar los hijos a lo largo del eje Y (verticalmente).
+    -> align-items
+
+    Permitir que los hijos desciendan a renglones o lineas inferiores cuando ya no entran
+    en ancho en la pantalla del dispositivo.
+    -> flex-wrap: wrap;
+
+    Permite colocar brechas tipo margen entre hijos
+    -> gap;
+
+
+    PARA INVESTIGAR:
+    -> flex-shrink
+    -> flex-grow
+    -> flex-basis
+*/
+/* * {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  border: 1px solid black;
+}
+.dos {
+    align-self: start;
+}
+.tres {
+    align-self: end;
+} */
