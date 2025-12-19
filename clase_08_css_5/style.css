@@ -1,0 +1,62 @@
+/******* GRID *******/
+/*
+    Es un sistema de estructura que nos permite definir columnas, filas o una combinacion de ambas (grilla)
+    dentro de las cuales se van a ir repartiendo los elementos internos del container.
+
+    Un detalle importante es que podemos aplicar flexbox dentro de cada una de las columnas/filas.
+
+    Para aplicar grid vamos a utilizar un valor despligue: 
+    -> display: grid;
+
+    Si queremos estructurar un sistema de filas:
+    -> grid-template-rows
+
+    Si queremos estructurar un sistema de columnas:
+    -> grid-template-columns
+
+    Si quiero agregar brechas: 
+    -> gap
+    -> column-gap
+    -> row-gap
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(1, 1fr);
+}
+.item {
+  background-color: gray;
+  border: 1px solid white;
+  color: white;
+}
+
+/******* MEDIA QUERYS ******/
+
+/****** TABLET *****/
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item {
+    background-color: green;
+  }
+}
+/****** DESKTOP *****/
+@media screen and (min-width: 1400px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .item {
+    background-color: red;
+  }
+}
